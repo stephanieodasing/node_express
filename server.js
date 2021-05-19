@@ -13,11 +13,11 @@ var bodyParser = require('body-parser');
  
 global.__basedir = __dirname;
  
-const db = require('./app/config/db.config.js');
+const db = require('./api/config/db.config.js');
 
 const Customer = db.Customer;
 
-let router = require('./app/routers/router.js');
+let router = require('./api/routes/users.js');
 
 const cors = require('cors')
 const corsOptions = {

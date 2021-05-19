@@ -18,8 +18,11 @@
   },
   "homepage": "https://github.com/stephanieodasing/node_express#readme",
   "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
     "node": "^16.1.0",
     "npm": "^7.13.0",
+    "sequelize": "^6.6.2",
     "socket.io": "^4.1.2"
   }
 }
